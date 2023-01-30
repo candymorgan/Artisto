@@ -1,0 +1,21 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Sora;
+  /* outline: 2px solid red; */
+}
+
+body{
+  background-color: #110C00;
+}
+
+.container{
+  width: 95%;
+  /* height: 2500px; */
+  /* border: 2px solid gold; */
+  margin: 0 auto;
+}

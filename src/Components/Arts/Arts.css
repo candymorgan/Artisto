@@ -1,0 +1,148 @@
+.generalContainer {
+  /* height: 700px; */
+  width: 98%;
+  margin-top: 150px;
+  /* border: 2px solid rgb(41, 255, 77); */
+}
+
+.writeUpAndSearchDiv {
+  /* border: 1px solid white; */
+  height: 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.collectionWriteUp {
+  color: white;
+  font-size: 20px;
+  /* border: 2px solid yellow; */
+}
+
+.collectionWriteUp p {
+  width: 500px;
+  margin-top: 15px;
+  margin-left: 0px;
+  /* border: 2px solid orange; */
+}
+
+.searchInput {
+  height: 60px;
+  border-radius: 50px;
+  margin-left: 100px;
+  /* margin-top: 20px; */
+  background-color: #1a1405;
+  display: flex;
+  /* border: 2px solid magenta; */
+}
+
+.searchInput input {
+  width: 560px;
+  height: 55px;
+  outline: none;
+  border: none;
+  font-size: 25px;
+  margin-left: 5px;
+  border-radius: 50px;
+  /* border: 2px solid yellow; */
+  color: white;
+  background-color: #1a1405;
+}
+
+.searchInput input::placeholder{
+  color: #FBAF00;
+}
+
+.searchInput img{
+  padding: 15px 0 0 15px;
+  /* border: 1px solid green; */
+}
+
+.artsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+    /* border: 1px solid yellow; */
+}
+
+
+/* .arts {
+  border: 1px solid lightcoral;
+  line-height: 30px;
+  font-size: 20px;
+} */
+
+.images {
+  height: 350px;
+  /* width: 500px; */
+  /* border: 3px solid blue; */
+}
+
+.imageDescription {
+  height: 170px;
+  width: 450px;
+  padding: 20px;
+  border-bottom-right-radius: 180px;
+  background-color: #1a1405;
+  /* border: 2px solid rgb(85, 228, 3); */
+  color: #ffff;
+}
+.imageDescription h4, p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  width: 350px;
+  /* border: 1px solid white; */
+}
+
+.arts img {
+  height: 350px;
+  object-fit: cover;
+  width: 450px;
+  border-top-left-radius: 180px;
+  /* border: 2px solid yellow; */
+}
+
+
+
+.whiteContainer3,
+.yellowContainer3 {
+  height: 61px;
+  width: 164px;
+  border-radius: 0px 30px;
+}
+
+.explore1 {
+  position: relative;
+  height: 70px;
+  font-size: 17px;
+  width: 15%;
+  left: 37%;
+  margin-top: 150px;
+  /* text-align: center; */
+  /* border: 2px solid rgb(230, 230, 230); */
+}
+
+.whiteContainer3 {
+  display: flex;
+  position: absolute;
+  color: black;
+  padding: 10px;
+  background-color: #ffff;
+  /* border: 1px solid magenta; */
+}
+
+.whiteContainer3 img{
+  margin: 15px 0 0 5px;
+}
+
+.whiteContainer3 > h3{
+  margin-top: 10px;
+}
+
+.yellowContainer3 {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  background-color: #fbaf00;
+  /* border: 2px solid darkmagenta; */
+}

@@ -1,0 +1,96 @@
+.overAllContainer{
+    /* margin-top: 10%; */
+    width: 94%;
+    margin: 0 auto;
+    /* height: 600px; */
+    /* border: 2px solid rgb(0, 103, 187); */
+}
+
+.icons{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    /* border: 2px solid rgb(238, 29, 29); */
+}
+
+
+.contentDiv{
+    height: 500px;
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.leftContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid magenta; */
+}
+
+.imgDiv img{
+    height: 450px;
+    width: 350px;
+    /* border: 1px solid green; */
+    border-radius: 0px 180px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.writeUp{
+    color: #ffff;
+    font-size: 20px;
+}
+
+.writeUp > h2{
+    margin-top: 10px;
+}
+
+.writeUp > p{
+    width: 500px;
+    margin-top: 25px;
+    /* border: 1px solid blue; */
+}
+
+.buttons{
+    /* width: 200px; */
+    height: 100px;
+    /* border: 1px solid gold; */
+    text-align: center;
+    font-size: 13px;
+    margin-top: 90px;
+    position: relative;
+    /* display: flex; */
+
+}
+
+.div1, .div2{
+    height: 61px;
+    width: 164px;
+    border-radius: 0px 30px;
+}
+.div1{
+    background-color: #FBAF00;
+    position: absolute;
+    left: 1%;
+    top: 6%;
+}
+
+.div2{
+    position: absolute;
+    background-color: #ffff;
+    padding-top: 10px; 
+
+}
+
+.rightButton{
+    height: 61px;
+    width: 164px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    color: #ffff;
+    padding-top: 10px;
+    /* border: 1px solid white; */
+
+}

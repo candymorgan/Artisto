@@ -1,0 +1,96 @@
+.mainContainer{
+    /* height: 0px; */
+    /* position: absolute; */
+    /* border: 2px solid yellow; */
+    margin-top: 180px;
+    
+}
+
+.gridItems{
+    /* border: 2px solid magenta ; */
+    display: grid;
+    height: 690px;
+    grid-template-columns: 50% 50%;
+}
+
+.writeUp{
+    /* border: 1px solid green; */
+    color: #FFFFFF;
+    
+}
+
+.amazing{
+    font-size: 40px;
+    width: 350px;
+    /* border: 1px solid white; */
+}
+
+.writeUp span{
+    color: #FBAF00;
+}
+.writeUp p{
+    /* border: 1px solid white; */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 420px;
+    margin-left: 0px;
+}
+
+/* .image{
+    border: 1px solid white;
+} */
+    
+
+  /* .explore{
+    border: 1px solid green;
+} */
+.starDiv{
+    position: absolute;
+    left: 28%;
+    /* border: 1px solid yellow; */
+}
+
+/* styling the image side of it */
+
+ /* .imageDiv{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px 200px;
+    border: 1px solid rgb(123, 255, 15);
+} */
+
+.imageDiv{
+    /* border: 1px solid white; */
+    position: absolute;
+    
+    
+}
+.imageDiv img{
+    height: 650px;
+    /* border: 1px solid white; */
+    border-radius: 20px 200px;
+}
+
+.yellowDiv{
+    height: 630px;
+    width: 500px;
+    position: absolute;
+    /* border: 1px solid yellow; */
+    border-radius: 20px 200px;
+    background-color: #FBAF00;
+    left: 64%;
+    top: 30%;
+}
+
+ .wrapper{
+    margin-left: 200px;
+    height: 690px;
+    /* border: 2px solid rgb(228, 1, 1); */
+} 
+
+.frame{
+    position: absolute;
+    top: 27%;
+    left: 58%;
+}
