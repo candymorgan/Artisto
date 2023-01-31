@@ -96,7 +96,7 @@
 
 .arts img {
   height: 350px;
-  object-fit: cover;
+  /* object-fit: cover; */
   width: 450px;
   border-top-left-radius: 180px;
   /* border: 2px solid yellow; */
