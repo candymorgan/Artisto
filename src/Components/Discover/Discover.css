@@ -1,6 +1,4 @@
 .mainContainer{
-    /* height: 0px; */
-    /* position: absolute; */
     /* border: 2px solid yellow; */
     margin-top: 180px;
     
@@ -34,17 +32,9 @@
     margin-bottom: 50px;
     font-size: 20px;
     width: 420px;
-    margin-left: 0px;
 }
 
-/* .image{
-    border: 1px solid white;
-} */
-    
 
-  /* .explore{
-    border: 1px solid green;
-} */
 .starDiv{
     position: absolute;
     left: 28%;
@@ -53,12 +43,6 @@
 
 /* styling the image side of it */
 
- /* .imageDiv{
-    height: 500px;
-    width: 500px;
-    border-radius: 20px 200px;
-    border: 1px solid rgb(123, 255, 15);
-} */
 
 .imageDiv{
     /* border: 1px solid white; */
@@ -79,12 +63,12 @@
     /* border: 1px solid yellow; */
     border-radius: 20px 200px;
     background-color: #FBAF00;
-    left: 64%;
+    left: 65%;
     top: 30%;
 }
 
  .wrapper{
-    margin-left: 200px;
+    margin-left: 205px;
     height: 690px;
     /* border: 2px solid rgb(228, 1, 1); */
 } 

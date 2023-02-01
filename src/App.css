@@ -6,7 +6,7 @@
   text-decoration: none;
   list-style-type: none;
   font-family: Sora;
-  /* outline: 2px solid red; */
+  /* outline: 1px solid red; */
 }
 
 body{
@@ -14,6 +14,7 @@ body{
 }
 
 .container{
+  background-color: #110C00;
   width: 95%;
   /* height: 2500px; */
   /* border: 2px solid gold; */

@@ -1,6 +1,4 @@
 .generalContainer {
-  /* height: 700px; */
-  width: 98%;
   margin-top: 150px;
   /* border: 2px solid rgb(41, 255, 77); */
 }
@@ -116,33 +114,37 @@
   height: 70px;
   font-size: 17px;
   width: 15%;
-  left: 37%;
-  margin-top: 150px;
-  /* text-align: center; */
+  margin: 150px 0 60px 600px;
   /* border: 2px solid rgb(230, 230, 230); */
 }
 
 .whiteContainer3 {
   display: flex;
   position: absolute;
-  color: black;
-  padding: 10px;
+  padding: 15px 0 0 10px;
   background-color: #ffff;
   /* border: 1px solid magenta; */
 }
 
 .whiteContainer3 img{
-  margin: 15px 0 0 5px;
+  margin: 5px 0 0 5px;
 }
 
-.whiteContainer3 > h3{
-  margin-top: 10px;
-}
 
 .yellowContainer3 {
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 3%;
   background-color: #fbaf00;
   /* border: 2px solid darkmagenta; */
+}
+
+.explore1:hover .whiteContainer3{
+  background-color: #fbaf00;
+  color: white;
+
+}
+.explore1:hover .yellowContainer3{
+  background-color: #ffff;
+
 }
