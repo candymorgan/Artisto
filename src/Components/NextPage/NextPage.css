@@ -1,8 +1,6 @@
 .overAllContainer{
-    /* margin-top: 10%; */
-    width: 94%;
+    width: 95%;
     margin: 0 auto;
-    /* height: 600px; */
     /* border: 2px solid rgb(0, 103, 187); */
 }
 
@@ -12,6 +10,10 @@
     justify-content: space-between;
     height: 50px;
     /* border: 2px solid rgb(238, 29, 29); */
+}
+
+.icons .arrow{
+    padding: 15px 0 0 0;
 }
 
 
@@ -34,7 +36,7 @@
     width: 350px;
     /* border: 1px solid green; */
     border-radius: 0px 180px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .writeUp{

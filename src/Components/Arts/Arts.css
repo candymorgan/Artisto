@@ -148,3 +148,15 @@
   background-color: #ffff;
 
 }
+.fward img:hover{
+  fill: white;
+}
+
+
+ .yellowLines img{
+  /* position: absolute; */
+  /* top: 100%; */
+  /* height: 300px; */
+  /* width: 25%; */
+  border: 2px solid orange;
+}

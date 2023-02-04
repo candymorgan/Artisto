@@ -5,16 +5,22 @@ import leviclancy2 from "../../leviclancy2.svg";
 import Arrow3 from "../../Arrow3.svg";
 import Frame1 from "../../Frame1.svg";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Display } from "../Context";
+
+
 
 function NextPage() {
+  const {singleImage} = useContext(Display)
   return (
-    <div>
+    <>
+
       <div className="overAllContainer">
         <Navbar />
         
         <div className="icons">
           <Link to="/"> 
-          <div><img src={Arrow3} alt="" /></div>
+          <div className="arrow"><img src={Arrow3} alt="" /></div>
           </Link>
           <div><img src={Frame1} alt="" /></div>
         </div>
@@ -22,7 +28,7 @@ function NextPage() {
         <div className="contentDiv">
           <div className="leftContent">
             <div className="imgDiv">
-              <img src={leviclancy2} alt="" />
+              <img src={singleImage} alt="" />
               
             </div>
           </div>
@@ -53,7 +59,7 @@ function NextPage() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

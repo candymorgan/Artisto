@@ -5,25 +5,37 @@ import Axios from "axios";
 import { Link } from "react-router-dom";
 import Frame from '../../Frame.svg'
 import Arrow2 from '../../Arrow2.svg'
+import { Display } from "../Context";
+import { useContext } from "react";
+// import { createContext } from "react";
+// import Group7 from '../../Group7.svg'
+
 
 function Arts() {
   const [info, setInfo] = useState();
   const [url, setUrl] = useState("")
   const static_url = "/full/843,/0/default.jpg"
-
+ 
+const { setSingleImage} = useContext(Display)
 
   useEffect(() => {
+
     Axios.get("https://api.artic.edu/api/v1/artworks")
       .then((res) => {
         res.data.data.length = 6
         setInfo(res.data.data);
         setUrl(res.data.config.iiif_url)
-        console.log(res.data.data);
-        console.log(res.data.config.iiif_url);
-      });
+        // console.log(res.data.data);
+        // console.log(res.data.config.iiif_url);
+      });   
 
   }, []);
 
+ 
+  const handleClick = (single) => {
+    const singleImageUrl = `${url}/${single}${static_url}`
+    setSingleImage(singleImageUrl)
+  }
   return (
     <>
       <div className="generalContainer">
@@ -49,12 +61,14 @@ function Arts() {
 
         <div className="artsContainer">
 
-          {info?.map((image, idx) => (
+          {info?.map((image) => (
 
             <Link to="/nextpage">
-              <div className="arts">
+              
+              <div  className="arts">
+              <div    onClick={() => handleClick(image.image_id)}>
                 <div className="images">
-                  <img src={`${url}/${image.image_id}${static_url}`} alt="" />
+                  <img  src={`${url}/${image.image_id}${static_url}`} alt=" " />
                 </div>
                 <div className="imageDescription">
                   <h4>{image.title}</h4>
@@ -67,21 +81,25 @@ function Arts() {
 
                   </p>
                 </div>
+                </div>
               </div>
-
+              
            
             </Link>
-          
 
 
           ))}
            </div>
 
+           
+            {/* <div className="yellowLines"><img src={Group7} alt="" /></div> */}
+           
+
         <div className="explore1">
           <div className="yellowContainer3"></div>
           <div className="whiteContainer3">
             <h3>Explore more</h3>
-            <div><img src={Arrow2} alt="" /></div>
+            <div><img src={Arrow2} alt="" className="fward" /></div>
           </div>
         </div>
 
