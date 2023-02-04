@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Artisto/static/css/main.92f48db3.css",
-    "main.js": "/Artisto/static/js/main.a1671080.js",
+    "main.css": "/Artisto/static/css/main.f66d62ad.css",
+    "main.js": "/Artisto/static/js/main.f18b9e33.js",
     "static/js/787.cae3e098.chunk.js": "/Artisto/static/js/787.cae3e098.chunk.js",
     "static/media/leviclancy2.svg": "/Artisto/static/media/leviclancy2.97068e0c9fd700c4391ac27372381b0c.svg",
     "static/media/Frame12.svg": "/Artisto/static/media/Frame12.e7c232bba2af2b37c29e45140b96d052.svg",
@@ -12,12 +12,12 @@
     "static/media/Vector.svg": "/Artisto/static/media/Vector.fcc6f71ac24f2b277d08eac486c8a128.svg",
     "static/media/Arrow3.svg": "/Artisto/static/media/Arrow3.23e20799136a0891d6c33045d8f75433.svg",
     "static/media/Arrow2.svg": "/Artisto/static/media/Arrow2.c6167ba102d1dbdbf91c8ad42a5b59ed.svg",
-    "main.92f48db3.css.map": "/Artisto/static/css/main.92f48db3.css.map",
-    "main.a1671080.js.map": "/Artisto/static/js/main.a1671080.js.map",
+    "main.f66d62ad.css.map": "/Artisto/static/css/main.f66d62ad.css.map",
+    "main.f18b9e33.js.map": "/Artisto/static/js/main.f18b9e33.js.map",
     "787.cae3e098.chunk.js.map": "/Artisto/static/js/787.cae3e098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92f48db3.css",
-    "static/js/main.a1671080.js"
+    "static/css/main.f66d62ad.css",
+    "static/js/main.f18b9e33.js"
   ]
 }
