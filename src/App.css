@@ -17,4 +17,9 @@ body{
   background-color: #110C00;
   width: 95%;
   margin: 0 auto;
+  /* border: 1px solid greenyellow */
+}
+.image7{
+  position: absolute;
+  top: 1900px;
 }

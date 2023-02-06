@@ -23,6 +23,10 @@
   /* border: 2px solid orange; */
 }
 
+.collectionWriteUp h1{
+  font-size: 48px;
+}
+
 .searchInput {
   height: 60px;
   border-radius: 50px;
