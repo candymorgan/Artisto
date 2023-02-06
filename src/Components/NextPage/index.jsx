@@ -1,7 +1,6 @@
 import React from "react";
 import "./NextPage.css";
 import Navbar from "../Navbar";
-import leviclancy2 from "../../leviclancy2.svg";
 import Arrow3 from "../../Arrow3.svg";
 import Frame1 from "../../Frame1.svg";
 import { Link } from "react-router-dom";
@@ -11,7 +10,7 @@ import { Display } from "../Context";
 
 
 function NextPage() {
-  const {singleImage} = useContext(Display)
+  const {singleImage, description} = useContext(Display)
   return (
     <>
 
@@ -34,16 +33,8 @@ function NextPage() {
           </div>
           <div className="rightContent">
             <div className="writeUp">
-              <h2>Plastic Hears Sculpture</h2>
-              <p>
-                Browse a curated selection of art around the world, including
-                museum exhibitions, gallery openings, upcoming and many more.
-                Browse a curated selection of art around the world, including
-                museum exhibitions, gallery openings, upcoming and many
-                moreBrowse a curated selection of art around the world,
-                including museum exhibitions, gallery openings, upcoming and
-                many more
-              </p>
+              <h2>{description.title}</h2>
+              <p>{description.provenance_text}</p>
             </div>
             <div className="buttons">
               <div className="leftButton">

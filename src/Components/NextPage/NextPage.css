@@ -32,11 +32,11 @@
 }
 
 .imgDiv img{
-    height: 450px;
-    width: 350px;
+    height: 500px;
+    width: 400px;
     /* border: 1px solid green; */
     border-radius: 0px 180px;
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .writeUp{
@@ -44,13 +44,12 @@
     font-size: 20px;
 }
 
-.writeUp > h2{
-    margin-top: 10px;
-}
+
 
 .writeUp > p{
-    width: 500px;
-    margin-top: 25px;
+    width: 85%;
+    text-align: justify;
+    /* margin-top: 25px; */
     /* border: 1px solid blue; */
 }
 
