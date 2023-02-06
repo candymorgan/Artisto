@@ -1,8 +1,8 @@
-import React from "react";
 import "./Discover.css";
 import Star3 from "../../Star3.svg";
 import leviclancy2 from "../../leviclancy2.svg";
 import Frame12 from "../../Frame12.svg";
+
 
 function Discover() {
   return (
@@ -12,13 +12,13 @@ function Discover() {
           <div className="writeUp">
             <div>
               <h1 className="amazing">
-                Discover amazing art around the <span>world</span>
+                Discover amazing <br/>art around the <br/><span>world</span>
               </h1>
             </div>
             <div>
               <p>
                 Browse a curated selection of art around the world, including
-                museum exhibitions, gallery openings, upcoming and many more
+                museum exhibitions, gallery openings,upcoming and many<br/> more
               </p>
             </div>
             <div className="explore">

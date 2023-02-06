@@ -3,6 +3,7 @@ import "./Navbar.css"
 import Vector from "../../Vector.svg"
 
 
+
 function Navbar() {
   return (
     <>
@@ -10,7 +11,6 @@ function Navbar() {
       <div className='logoDiv'>
        <div className='logo'><img src={Vector} alt="" /></div> 
         <div className='artisto'><h1>Artisto</h1></div>
-
       </div>
 
       <div className='navLinks'>

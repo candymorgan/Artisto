@@ -7,6 +7,7 @@ const Context = ({children}) => {
 
     const[singleImage, setSingleImage] = useState([])
     const[description, setDescription] = useState([])
+    
 
   return (
     <Display.Provider value={{singleImage, setSingleImage, description, setDescription}}>

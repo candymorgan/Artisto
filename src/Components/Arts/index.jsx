@@ -73,7 +73,7 @@ function Arts() {
                 <div className="arts">
                   <div onClick={() => handleClick(image)}>
                     <div className="images">
-                      <img src={`${url}/${image.image_id}${static_url}`} alt=" " />
+                      <img key={image.id} src={`${url}/${image.image_id}${static_url}`} alt=" " />
                     </div>
                     <div className="imageDescription">
                       <h4>{image.title}</h4>

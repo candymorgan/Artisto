@@ -77,8 +77,8 @@
 }
 
 .imageDescription {
-  height: 170px;
-  width: 450px;
+  /* height: 170px; */
+  /* width: 450px; */
   padding: 20px;
   border-bottom-right-radius: 180px;
   background-color: #1a1405;
