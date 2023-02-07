@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Artisto/static/css/main.e66b5433.css",
-    "main.js": "/Artisto/static/js/main.8a08710b.js",
+    "main.css": "/Artisto/static/css/main.fd911f8a.css",
+    "main.js": "/Artisto/static/js/main.d95d9f22.js",
     "static/js/787.cae3e098.chunk.js": "/Artisto/static/js/787.cae3e098.chunk.js",
     "static/media/leviclancy2.svg": "/Artisto/static/media/leviclancy2.97068e0c9fd700c4391ac27372381b0c.svg",
     "static/media/Frame12.svg": "/Artisto/static/media/Frame12.e7c232bba2af2b37c29e45140b96d052.svg",
+    "static/media/Group7.svg": "/Artisto/static/media/Group7.a25b4b77901282da01b4df9f1a335398.svg",
     "static/media/Frame1.svg": "/Artisto/static/media/Frame1.23369f4e0e210d96ed581dce95ef24c0.svg",
     "static/media/Star3.svg": "/Artisto/static/media/Star3.5a590c52ec668b3bfc95ddc4387ae593.svg",
     "index.html": "/Artisto/index.html",
@@ -12,12 +13,12 @@
     "static/media/Vector.svg": "/Artisto/static/media/Vector.fcc6f71ac24f2b277d08eac486c8a128.svg",
     "static/media/Arrow3.svg": "/Artisto/static/media/Arrow3.23e20799136a0891d6c33045d8f75433.svg",
     "static/media/Arrow2.svg": "/Artisto/static/media/Arrow2.c6167ba102d1dbdbf91c8ad42a5b59ed.svg",
-    "main.e66b5433.css.map": "/Artisto/static/css/main.e66b5433.css.map",
-    "main.8a08710b.js.map": "/Artisto/static/js/main.8a08710b.js.map",
+    "main.fd911f8a.css.map": "/Artisto/static/css/main.fd911f8a.css.map",
+    "main.d95d9f22.js.map": "/Artisto/static/js/main.d95d9f22.js.map",
     "787.cae3e098.chunk.js.map": "/Artisto/static/js/787.cae3e098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e66b5433.css",
-    "static/js/main.8a08710b.js"
+    "static/css/main.fd911f8a.css",
+    "static/js/main.d95d9f22.js"
   ]
 }
